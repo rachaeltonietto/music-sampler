@@ -1,0 +1,252 @@
+body {
+font-family: 'Lato', sans-serif;
+font-size: 1em;
+background-color: #fff;
+margin: 0;
+padding: 0;
+}
+
+header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #000;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  border-bottom-style: solid;
+  border-bottom-color: #0b526e;
+  border-bottom-width: .5em;
+  border-top-style: solid;
+  border-top-color: #0b526e;
+  border-top-width: .5em;
+  margin-top: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+
+}
+ h2 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  color: #fff;
+}
+#click {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+ #firstContainer {
+  box-sizing: border-box;
+  float: left;
+  width: 44%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 4%;
+}
+
+ #secondContainer {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 44%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-right: 4%;
+  margin-left: 2%;
+  float: left;
+
+}
+
+#thirdContainer {
+  clear: both;
+  width: 100%;
+}
+
+#innerThirdContainer {
+  width: 1200px;
+  margin: auto;
+}
+
+#border1 {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #E5B8FF;
+  border-width: .2em;
+  margin-top: 15px;
+}
+
+#border2 {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #C96BFF;
+  border-width: .2em;
+  margin-top: 15px;
+}
+
+#border3 {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #7F44A1;
+  border-width: .2em;
+  margin-top: 15px;
+}
+
+#border4 {
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #3E0061;
+  border-width: .2em;
+  margin-top: 15px;
+}
+
+#theCity {
+  clear: both;
+  margin-top: 10px;
+}
+
+#lovingSomeone {
+  margin-top: 10px;
+}
+
+#sex {
+  margin-top: 10px;
+}
+
+#chocolate {
+  margin-top: 10px;
+}
+
+p {
+  color: #000;
+}
+
+
+#firstAlbum {
+  border-style: solid;
+  border-color: #E5B8FF;
+  border-width: .5em;
+  margin-right: 80px;
+  margin-left: 20px;
+}
+
+#secondAlbum {
+  border-style: solid;
+  border-color: #C96BFF;
+  border-width: .5em;
+  margin-right: 80px;
+}
+
+#sexEP {
+  border-style: solid;
+  border-color: #7F44A1;
+  border-width: .5em;
+  margin-right: 80px;
+}
+#carsEP {
+  border-style: solid;
+  border-color: #3E0061;
+  border-width: .5em;
+  margin-right: 0;
+}
+
+.title{
+  text-align: center;
+}
+
+img.band{
+  display: block;
+  margin: auto;
+  border-style: solid;
+  border-color: #0b526e;
+  border-width: .5em;
+  max-width: 100%;
+  max-height: 60%;
+  }
+
+.credit {
+  text-align: left;
+}
+
+a {
+color: #0b526e;
+}
+
+a:hover {
+  color: #778899;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 900px) {
+     #firstContainer {
+       float: none;
+       display: block;
+       width: 80%;
+       margin: auto;
+       padding-top: 20px;
+     }
+     #secondContainer {
+       float: none;
+       width: 100%;
+       margin: 0;
+     }
+
+     #thirdContainer {
+       width: 100%;
+       margin: 0;
+     }
+     #innerThirdContainer {
+       margin: 0;
+       width: 100%;
+     }
+
+     #firstAlbum {
+       display: block;
+       margin: auto;
+       margin-bottom: 5px;
+     }
+
+     #secondAlbum {
+       display: block;
+       margin: auto;
+       margin-bottom: 5px;
+     }
+
+     #sexEP {
+       display: block;
+       margin: auto;
+       margin-bottom: 5px;
+     }
+
+     #carsEP {
+       display: block;
+       margin: auto;
+       margin-bottom: 5px;
+     }
+
+     .band {
+       float: none;
+     }
+
+     header {
+       margin-top: 0;
+       margin-right: 0;
+       padding: 0;
+       width: 100%;
+     }
+
+}

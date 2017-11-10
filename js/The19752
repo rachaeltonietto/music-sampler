@@ -1,0 +1,21 @@
+$(document).ready(function() {
+
+function hideAll() {
+  $('#theCitytext').hide();
+  $('#lovingSomeonetext').hide();
+  $('#sexText').hide();
+  $('#chocolateText').hide();
+}
+   hideAll();
+
+   });
+
+
+   });
+
+   //$('#firstAlbum').click(function() {
+    //$('#theCitytext').slideToggle();
+
+
+   //$('#secondAlbum').click(function() {
+     //$('#lovingSomeonetext').slideToggle();
